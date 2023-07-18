@@ -16,66 +16,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="1. Bagi penyewa lepas kunci wajib memiliki SIM sesuai dengan mobil yang disewa."
+        android:text="1. Bagi penyewa lepas kunci wajib memiliki SIM sesuai dengan mobil yang disewa.\n2. Memiliki KTP yang akan disimpan oleh pemilik sewa selama masa penyewaan.\n3. Adanya ketentuan denda sewa jika melebihi batas waktu sewa.\n4. Adanya fasilitas pengantaran mobil dan pickup mobil pada daerah-daerah tertentu.\n5. Adanya aturan wilayah pemakaian kendaraan sesuai perjanjian.\n6. Adanya aturan tentang denda asuransi mobil jika terjadi kerusakan ringan atau kerusakan berat.\n7. Tidak diperkenankan untuk digunakan balapan tidak resmi.\n8. Durasi penyewaan dianggap digunakan secara full dan tidak bisa dipotong untuk digunakan di lain waktu.\n9. Jika dengan sopir, harga sewa tidak termasuk dengan harga bahan bakar. Namun, biasanya ada juga paket sewa dengan sopir dan bahan bakar.\n10. Pembatalan sewa biasanya akan dikenakan denda.\n11. Pembatalan sewa biasanya akan dikenakan denda sesuai dengan aturan masing-masing perusahaan sewa."
         android:textSize="16sp"
         android:lineSpacingExtra="8dp" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:lineSpacingExtra="8dp"
-        android:text="2. Memiliki KTP yang akan disimpan oleh pemilik sewa selama masa penyewaan."
-        android:textSize="16sp" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="3. Adanya ketentuan denda sewa jika melebihi batas waktu sewa."
-        android:textSize="16sp"
-        android:lineSpacingExtra="8dp" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="4. Adanya fasilitas pengantaran mobil dan pickup mobil pada daerah-daerah tertentu."
-        android:textSize="16sp"
-        android:lineSpacingExtra="8dp" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="5. Adanya aturan wilayah pemakaian kendaraan sesuai perjanjian."
-        android:textSize="16sp"
-        android:lineSpacingExtra="8dp" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="6. Adanya aturan tentang denda asuransi mobil jika terjadi kerusakan ringan atau kerusakan berat."
-        android:textSize="16sp"
-        android:lineSpacingExtra="8dp" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="7. Tidak diperkenankan untuk digunakan balapan tidak resmi."
-        android:textSize="16sp"
-        android:lineSpacingExtra="8dp" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="8. Durasi penyewaan dianggap digunakan secara full dan tidak bisa dipotong untuk digunakan di lain waktu."
-        android:textSize="16sp"
-        android:lineSpacingExtra="8dp" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="9. Jika dengan sopir, harga sewa tidak termasuk dengan harga bahan bakar. Namun, biasanya ada juga paket sewa dengan sopir dan bahan bakar."
-        android:textSize="16sp"
-        android:lineSpacingExtra="8dp" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="10. Pembatalan sewa biasanya akan dikenakan denda"
-        android:textSize="16sp"
-        android:lineSpacingExtra="8dp" />
-
-
 
     <!-- Add other UI elements and content for the "Info Rental" section here -->
 
