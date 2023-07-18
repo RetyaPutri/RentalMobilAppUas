@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SecondFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="5dp"
+            android:text="Nama :"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="378dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:inputType="text"
+            app:layout_constraintBottom_toTopOf="@+id/addressTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/nameTextView"
+            app:layout_constraintTop_toBottomOf="@+id/nameTextView" />
+
+        <TextView
+            android:id="@+id/addressTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Alamat sesuai KTP :"
+            app:layout_constraintEnd_toEndOf="@+id/nameEditText"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/nameEditText"
+            app:layout_constraintTop_toBottomOf="@+id/nameEditText" />
+
+        <EditText
+            android:id="@+id/addressEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="@+id/addressTextView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/addressTextView"
+            app:layout_constraintTop_toBottomOf="@id/addressTextView" />
+
+        <fragment
+            android:id="@+id/map"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="120dp"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            app:layout_constraintEnd_toEndOf="@+id/addressEditText"
+            app:layout_constraintStart_toStartOf="@+id/addressEditText"
+            app:layout_constraintTop_toBottomOf="@+id/addressEditText" />
+
+
+        <TextView
+            android:id="@+id/typecarTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="175dp"
+            android:text="Jenis Mobil :"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/typecarEditText"
+            android:layout_width="378dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="350dp"
+            android:ems="10"
+            android:inputType="text"
+            app:layout_constraintBottom_toTopOf="@+id/addressTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/nameTextView"
+            app:layout_constraintTop_toBottomOf="@+id/nameTextView" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/addressEditText"
+            app:layout_constraintTop_toBottomOf="@+id/map">
+
+
+            <Button
+                android:id="@+id/deleteButton"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:text="Hapus"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="320dp" />
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Simpan"
+                tools:layout_editor_absoluteX="226dp"
+                tools:layout_editor_absoluteY="322dp" />
+
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

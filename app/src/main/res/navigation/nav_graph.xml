@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/SplashFragment">
+
+    <fragment
+        android:id="@+id/SplashFragment"
+        android:name="com.example.rentalmobilapp.ui.SplashFragment"
+        tools:layout="@layout/fragment_splash">
+
+        <action
+            android:id="@+id/action_SplashFragment_to_LoginFragment"
+            app:destination="@id/LoginFragment" />
+        <argument
+            android:name="Splash"
+            app:argType="com.example.rentalmobilapp.model.Car"
+            app:nullable="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="com.example.rentalmobilapp.ui.LoginFragment"
+        tools:layout="@layout/fragment_login">
+
+        <action
+            android:id="@+id/action_LoginFragment_to_HomeFragment"
+            app:destination="@id/HomeFragment" />
+        <argument
+            android:name="Login"
+            app:argType="com.example.rentalmobilapp.model.Car"
+            app:nullable="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.example.rentalmobilapp.ui.HomeFragment"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_InfoFragment"
+            app:destination="@id/InfoFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+
+        <argument
+            android:name="INFO RENTAL MOBIL"
+            app:argType="com.example.rentalmobilapp.model.Car"
+            app:nullable="true"/>
+        <argument
+            android:name="RESERVASI"
+            app:argType="com.example.rentalmobilapp.model.Car"
+            app:nullable="true"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/InfoFragment"
+        android:name="com.example.rentalmobilapp.ui.InfoFragment"
+        tools:layout="@layout/fragment_info">
+
+        <action
+            android:id="@+id/action_InfoFragment_to_HomeFragment"
+            app:destination="@id/HomeFragment" />
+        <argument
+            android:name="Info"
+            app:argType="com.example.rentalmobilapp.model.Car"
+            app:nullable="true"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.rentalmobilapp.ui.FirstFragment"
+        android:label="Tambahkan Tempat Rental"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <argument
+            android:name="car"
+            app:argType="com.example.rentalmobilapp.model.Car"
+            app:nullable="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.rentalmobilapp.ui.SecondFragment"
+        android:label="Tambahkan Tempat Rental"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <argument
+            android:name="car"
+            app:argType="com.example.rentalmobilapp.model.Car"
+            app:nullable="true"/>
+    </fragment>
+
+</navigation>
