@@ -23,7 +23,7 @@
 
  4. HASIL PENGISIAN DATA
 
- <img src = "" width = "300" height = "600">
+ <img src = "https://github.com/RetyaPutri/RentalMobilAppUas/blob/master/HASIL%20PENGISIAN%20DATA.png" width = "300" height = "600">
 
 
 
