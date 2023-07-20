@@ -19,7 +19,12 @@
 
      b. TAMPILAN RESERVASI
      
+ <img src = "https://github.com/RetyaPutri/RentalMobilAppUas/blob/master/RESERVASI%202.png" width = "300" height = "600">
+
+ 4. HASIL PENGISIAN DATA
+
  <img src = "" width = "300" height = "600">
+
 
 
 
