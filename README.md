@@ -1,6 +1,6 @@
 # RentalMobilApp
- Tugas Room Database Part1
+ Tugas UAS
 
-di halaman ini menampilkan tidak ada tempat untuk rental mobil
+1. MENAMPILKAN SPLASH
 
- <img src = "https://github.com/RetyaPutri/RentalMobilApp/blob/main/not%20found.png" width = "300" height = "600">
+ <img src = "https://github.com/RetyaPutri/RentalMobilAppUas/blob/master/SPLASH.png" width = "300" height = "600">
