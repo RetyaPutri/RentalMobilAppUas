@@ -9,3 +9,9 @@
 
  <img src = "https://github.com/RetyaPutri/RentalMobilAppUas/blob/master/LOGIN.png" width = "300" height = "600">
 
+ 3. TAMPILAN HOME
+
+ <img src = "https://github.com/RetyaPutri/RentalMobilAppUas/blob/master/HOME.png" width = "300" height = "600">
+
+    
+
